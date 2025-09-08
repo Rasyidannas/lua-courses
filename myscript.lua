@@ -24,3 +24,22 @@ print(age) -- it will return nil
     print(greeting.." "..name)
   -- function
   -- table
+  -- boolean
+    num = nil
+    if not num then 
+      print("nil is falsy")
+    end
+
+-- Increament and Decreament
+level = 1
+score = 0
+num_lives = 5
+
+-- incrementing level and Lua don't have assigment operator like JS or PHP
+level = level + 1
+
+num_live = num_lives - 1
+
+
+
+
