@@ -54,3 +54,15 @@ print("level: " .. level)
 print("score: " .. score)
 print("lives: " .. num_lives)
 print("time: " .. time_ellapsed)
+
+-- elseif
+menu_option = 1
+
+if menu_option == 1 then
+  menu_text = "Can I play, Daddy?"
+elseif menu_option == 2 then
+  menu_text = "Don't hurt me."
+end
+
+print(menu_text)
+
